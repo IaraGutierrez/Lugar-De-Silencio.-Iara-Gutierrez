@@ -1,0 +1,25 @@
+{
+  "name": "lugar-de-silencio.-iara-gutierrez",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+   
+    "watch-css":"nodemon -e scss -x"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/IaraGutierrez/Lugar-De-Silencio.-Iara-Gutierrez.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/IaraGutierrez/Lugar-De-Silencio.-Iara-Gutierrez/issues"
+  },
+  "homepage": "https://github.com/IaraGutierrez/Lugar-De-Silencio.-Iara-Gutierrez#readme",
+  "devDependencies": {
+    "node-sass": "^7.0.3",
+    "nodemon": "^2.0.20"
+  }
+}
