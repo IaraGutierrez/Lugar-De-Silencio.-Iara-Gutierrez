@@ -1,62 +1,113 @@
 <!DOCTYPE html>
-    <html lang="Es">
-        <head>
-        <meta charset="UTF-8">
-        <meta http-equiv="X-UA-Compatible"
-        content="IE=edge">
-        <meta name="viewport"
-        content="width=device-width,initial-scale=1.0">
-        <link rel="stylesheet" href="style.css">
-        <link rel="preconnect" href="https://fonts.googleapis.com">
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Oleo+Script+Swash+Caps&display=swap" rel="stylesheet">
-        <title>Lugar De Silencio</title>
-        </head>
-        <!--inicio-->
-        <body>
-                  <h1>Lugar De Silencio</h1>
-<div id="grilla">
-                <header>          
-                    <img src="./pages/Fotos/Paisaje.jfif"alt="paisaje">
-                    <div>   
-                    <h2> Somos el lugar que necesitás para relajarte</h2> 
-                    <input type="search">
-                    </div>
-                </header>
-          
-        
-            <div>
-                <nav>
-                   <a href="Index.html">Home</a>
-                   <a href="./pages/servicios.html">Servicios</a>
-                   <a href="./pages/contacto.html">Contacto</a>
-                   <a href="./pages/sobre_nosotros.html">Sobre Nosotros</a>
-                   <a href="./pages/turnos.html">Turnos</a>
-                </nav>
-           </div>
-        <section id="parrafo">
-           <p>El masaje es un lenguaje silencioso de conexión. 
-            Es un puente entre dos cuerpos,universos y energías diferentes.
-            Es un vehículo que permite trasmitir en el dar y el recibir. Regalarse una sesión de masajes es amarse y cuidarse.
-           </p>
-        </section>
-        <section id="imagenes">
-            <div class="img-inicio">
-                                
-                <img class="masajes" src="./pages/Fotos/Masajes.jfif" alt="masajes">
-                                                      
-                <img class="velas" src="./pages/Fotos/Velas.jfif"alt="velas">
-                                 
-                <img class="pies" src="./pages/Fotos/Masajes De Pie.jfif"alt="pies"> 
-        
-                <img class="sahumerios" src="./pages/Fotos/Sahumerios.jfif"alt="sahumerios"> 
-        
-                <img class="energias" src="./pages/Fotos/Energias.jfif"alt="Energias">
-            </div>
-        </section>
-            <footer>
-            © 2020 Copyright:Lugar De Silencio
-            </footer>
-</div>
-         </body>
-    </html>
+<html lang="Es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width,initial-scale=1.0" />
+    <link rel="stylesheet" href="css/main.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+
+    <!--Bootstrap-->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi"
+      crossorigin="anonymous"
+    />
+
+    <title>Lugar De Silencio</title>
+  </head>
+  <!--inicio-->
+  <body>
+    <!-------------------------------------------------------------------------->
+
+    <header class="header__index">
+      <div class="imagen__h1">
+        <h1>Lugar de Silencio</h1>
+        <div class="div__nav">
+          <nav class="nav__index">
+            <a href="Index.html">Home</a>
+            <a href="./pages/servicios.html">Servicios</a>
+            <a href="./pages/contacto.html">Contacto</a>
+            <a href="./pages/sobre_nosotros.html"> Nosotros</a>
+            <a href="./pages/turnos.html">Turnos</a>
+          </nav>
+        </div>
+      </div>
+    </header>
+    <!-------------------------------------------------------------------------->
+
+    <div class="div__h2__index">
+      <h2 class="h2__titulo__index">
+        Somos el lugar que necesitás para relajarte
+      </h2>
+    </div>
+    <!-------------------------------------------------------------------------->
+
+    <section id="parrafo">
+      <p>
+        El masaje es un lenguaje silencioso de conexión. Es un puente entre dos
+        cuerpos,universos y energías diferentes. Es un vehículo que permite
+        trasmitir en el dar y el recibir. Regalarse una sesión de masajes es
+        amarse y cuidarse.
+      </p>
+    </section>
+
+    <!-------------------------------------------------------------------------->
+    <section class="carousel__bootstrap">
+     
+      <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel__edit carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+          <div class=" carousel-item active">
+            <img src="./pages/Fotos/Sahumerios.jfif" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="./pages/Fotos/Sahumerios.jfif" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="./pages/Fotos/Sahumerios.jfif" class="d-block w-100" alt="...">
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+
+    </section>
+
+
+    <!-------------------------------------------------------------------------->
+
+
+    
+    <footer>© 2020 Copyright:Lugar De Silencio</footer>
+  </body>
+
+  <!-----------------------------------------------------Scripts---------------------------------------------------------->
+  <script
+    src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
+    integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3"
+    crossorigin="anonymous"
+  ></script>
+  <script
+    src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.min.js"
+    integrity="sha384-IDwe1+LCz02ROU9k972gdyvl+AESN10+x7tBKgc9I5HFtuNz0wWnPclzo6p9vxnk"
+    crossorigin="anonymous"
+  ></script>
+  <script
+    src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3"
+    crossorigin="anonymous"
+  ></script>
+</html>
