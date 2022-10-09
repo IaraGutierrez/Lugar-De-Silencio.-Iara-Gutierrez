@@ -3,6 +3,9 @@ header {
   text-align: center;
   max-width: 400%;
   opacity: 0.5;
+  font-size: 50px;
+  font-family: "Oleo Script Swash Caps";
+  
 }
 
 nav {
@@ -11,6 +14,7 @@ nav {
   padding-bottom: 1%;
   -webkit-margin-start: 15%;
           margin-inline-start: 15%;
+        
 }
 
 #parrafo {
@@ -211,6 +215,8 @@ footer {
 .h1__index {
   margin: 0;
   padding: 0;
+  font-size: 50px;
+  font-family: "Oleo Script Swash Caps";
 }
 
 /*---------------------------------------------------------------------------------------------------------*/
@@ -249,7 +255,10 @@ footer {
 }
 
 .carousel__bootstrap {
-  width: 50%;
+  display: flex;
+  width: 10%;
+  align-items: center;
+  justify-content: center;
 }
 
 .imagen__width {
