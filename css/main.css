@@ -96,6 +96,7 @@ input {
   border-style: dotted; }
 
 .whatsapp {
+  float: left;
   width: 3%; }
 
 .instagram {
