@@ -2,17 +2,22 @@ header {
   text-align: center;
   max-width: 400%;
 }
+footer{
+  margin-top: auto;
+}
 nav {
   display: flex;
   justify-content: space-around;
-  align-items: center;
-  width: 100%;
-  height: 20vh;
+  gap: 5%;
+  text-align: center;
+  font-size: 150%;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
   background-image: url(../pages/Fotos/montañas.jpg);
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
+  text-transform: lowercase;
 }
 #parrafo {
   transition: all 0.9 ease;
@@ -113,41 +118,59 @@ input {
 /*--------------------------------------------*/
 /* sobre nosotros */
 .inicios {
-  background-color: rgb(219, 122, 175);
+  background-color: rgb(181, 216, 185);
   position: initial;
   text-align: center;
-  top: 60px;
-  left: 50px;
-  right: 50px;
-  font-size: 50px;
-  padding: 2%;
+  top: 60%;
+  left: 50%;
+  right: 50%;
+  font-size: 200%;
+  padding: 0.5%;
+  margin-bottom: 5%;
 }
-.historia {
-  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
-  background-color: grey;
-  margin-left: 5px;
+  img{
+    width:40%;
+  }
+  .historia {
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    margin-left: 5px;
+    text-align: right;
+    display: inline-block;
 }
-
+.machupichu{
+  width: 35%;
+  float: right;
+}
+footer{
+  margin-top: 40%;
+}
 /* pagina de turnos */
 .turnos {
-  background-color: rgb(219, 122, 175);
+  background-color:  rgb(181, 216, 185);
   position: initial;
   text-align: center;
-  top: 20px;
-  left: 30px;
-  right: 30px;
-  font-size: 30px;
+  top: 50%;
+  left: 30%;
+  right: 30%;
+  font-size: 130%;
 }
 .dias {
   font-size: x-large;
   position: absolute;
-  margin-top: 200px;
-  background-color: grey;
+  margin-top: 0.5%;
+  
 }
 .agendar {
   text-align: center;
-  margin-top: 400px;
-  background-color: grey;
+  margin-top: 5%;
+}
+.ubicacion{
+  float: left;
+  width: 3%;
+  margin-left: 4%;
+  margin-top: 4%;
+  margin-bottom: 4%;
+  
 }
 /* grid */
 #grilla {
